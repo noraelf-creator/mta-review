@@ -2,7 +2,7 @@ const fs=require('fs'),p=require('path'),crypto=require('crypto');
 const ROOT=__dirname,SRC=process.env.MTA_SOURCE||'G:/マイドライブ/マダミス-6/ChatGPT共有/神経衰弱_CURRENT';
 const title='M.T.A. — MurdeR Trick Algorithm —';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const files=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.name==='.git'?[]:e.isDirectory()?files(p.join(d,e.name)):[p.join(d,e.name)]);
+const files=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>['.git','.wrangler','node_modules'].includes(e.name)?[]:e.isDirectory()?files(p.join(d,e.name)):[p.join(d,e.name)]);
 const rel=f=>p.relative(ROOT,f).replaceAll('\\','/');
 const write=(r,s)=>{fs.mkdirSync(p.dirname(p.join(ROOT,r)),{recursive:true});fs.writeFileSync(p.join(ROOT,r),s);};
 const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
@@ -50,6 +50,7 @@ if(fs.existsSync(p.join(ROOT,'PUBLIC_URL.txt'))){const f=p.join(ROOT,'AI_HANDOFF
 for(const r of ['README.md','CHANGELOG.md','AI_HANDOFF.md']){const h=r.replace('.md','.html');write(h,page(r,'<pre>'+esc(clean(fs.readFileSync(p.join(ROOT,r),'utf8')))+'</pre>',h));}
 // Reserve the validation page before crawling every internal reference.
 write('WEB_VALIDATION.html',page('Web検証','<p>検査中</p>','WEB_VALIDATION.html'));
+delete require.cache[require.resolve('./apply_author_ui.cjs')];require('./apply_author_ui.cjs');
 const report={updated:new Date().toISOString(),html:0,images:0,internalReferences:0,broken:[],localPaths:[],secretFindings:[],imageMissing:0,http404:'公開後検査待ち',sourceUnchanged:true,excluded};
 for(const f of files(ROOT)){
  const r=rel(f);if(/\.(png|svg|jpg|webp)$/i.test(r))report.images++;
@@ -72,4 +73,5 @@ const summary='# Web検証\n\n'+report.updated+'\n\nHTML数：'+report.html+'\n�
 const finalSummary=summary+'\n公開HTTP検査：'+(report.httpChecked||0)+'件\n公開HTTP 404件数：'+report.http404+'\nfile参照：'+report.localPaths.length+'件\nCドライブ参照：'+report.localPaths.length+'件\nGドライブ参照：'+report.localPaths.length+'件\n';
 write('WEB_VALIDATION.md',finalSummary);write('WEB_VALIDATION.html',page('Web検証','<pre>'+esc(finalSummary)+'</pre>','WEB_VALIDATION.html'));
 console.log(JSON.stringify(report,null,2));
+delete require.cache[require.resolve('./apply_author_ui.cjs')];require('./apply_author_ui.cjs');
 if(report.broken.length||report.localPaths.length||report.secretFindings.length||!report.sourceUnchanged)process.exitCode=1;

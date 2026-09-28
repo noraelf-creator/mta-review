@@ -1,0 +1,6 @@
+{
+  "at": "2026-09-28T07:38:20.578Z",
+  "checks": 24,
+  "result": "PASS",
+  "scope": "Worker本体＋SQLite。実Cloudflare・ブラウザ再起動は別検証。"
+}

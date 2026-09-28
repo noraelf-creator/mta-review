@@ -1,0 +1,8 @@
+{
+  "name": "mta-author-notes",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-28",
+  "workers_dev": true,
+  "vars": {"ALLOWED_ORIGIN": "https://noraelf-creator.github.io"},
+  "d1_databases": [{"binding":"DB","database_name":"mta-author-notes","database_id":"cae9174c-3a03-4aea-8573-e30c00537b89"}]
+}

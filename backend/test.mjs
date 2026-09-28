@@ -1,0 +1,31 @@
+import {DatabaseSync} from 'node:sqlite';import assert from 'node:assert/strict';import fs from 'node:fs';import {randomBytes,randomUUID} from 'node:crypto';import worker from './worker.mjs';
+const db=new DatabaseSync(':memory:');db.exec(fs.readFileSync(new URL('./schema.sql',import.meta.url),'utf8'));
+const DB={prepare(sql){return {bind(...values){return {async first(){return db.prepare(sql).get(...values)||null},async all(){return {results:db.prepare(sql).all(...values)}},async run(){return db.prepare(sql).run(...values)}}}}}};
+const key=randomBytes(32).toString('hex'),env={DB,AUTHOR_EDIT_KEY:key,ALLOWED_ORIGIN:'https://noraelf-creator.github.io'},origin=env.ALLOWED_ORIGIN,ctx={waitUntil:p=>p.catch(()=>{})};let checks=0;
+async function call(route,{body,token,site=origin,ip='test',method=body?'POST':'GET'}={}){const r=await worker.fetch(new Request('https://example.test'+route,{method,headers:{Origin:site,'Content-Type':'application/json','CF-Connecting-IP':ip,...(token?{Authorization:'Bearer '+token}:{})},body:body?JSON.stringify(body):undefined}),env,ctx);return {status:r.status,data:r.status===204?null:await r.json(),headers:r.headers};}
+function eq(a,b){assert.deepEqual(a,b);checks++;}
+eq((await call('/notes?page=index')).data.notes,[]);
+eq((await call('/notes',{body:{pageId:'index',text:'x',requestId:randomUUID()}})).status,401);
+eq((await call('/auth',{body:{key:'incorrect'}})).status,401);
+eq((await call('/auth',{body:{key},site:'https://evil.example'})).status,403);
+const login=await call('/auth',{body:{key}});eq(login.status,200);const token=login.data.token;eq(token.length,64);
+const body={pageId:'review/10_PC1_HO-B',text:'テスト第一メモ\n二行目',requestId:randomUUID()};eq((await call('/notes',{body,token})).status,201);
+eq((await call('/notes',{body,token})).status,201);eq((await call('/notes?page='+encodeURIComponent(body.pageId))).data.notes.length,1);
+eq((await call('/notes',{body:{...body,text:'上書き禁止'},token})).status,409);
+eq((await call('/notes',{body:{...body,requestId:randomUUID(),text:'二つ目'},token})).status,201);
+eq((await call('/notes?page='+encodeURIComponent(body.pageId))).data.notes.map(n=>n.text),['二つ目','テスト第一メモ\n二行目']);
+eq((await call('/notes?page=review/cards/C12')).data.notes,[]);
+eq((await call('/notes',{body:{pageId:'review/cards/C12',text:'別ページ',requestId:randomUUID()},token})).status,201);
+eq((await call('/notes?page=review/cards/C12')).data.notes.length,1);
+eq((await call('/notes',{body:{...body,pageId:'../../invalid'},token})).status,400);
+eq((await call('/notes',{body:{...body,text:'x'.repeat(10001)},token})).status,400);
+eq((await call('/notes',{body:{...body,text:' '},token})).status,400);
+for(let i=0;i<5;i++)await call('/auth',{body:{key:'bad'},ip:'limited'});
+eq((await call('/auth',{body:{key},ip:'limited'})).status,429);
+eq((await call('/notes?page=index',{site:'https://evil.example'})).status,403);
+eq((await call('/notes',{method:'OPTIONS'})).status,204);
+eq((await call('/logout',{body:{},token})).status,200);
+eq((await call('/notes',{body,token})).status,401);
+eq(db.prepare('SELECT COUNT(*) AS n FROM sessions WHERE hash=?').get(token).n,0);
+const result={at:new Date().toISOString(),checks,result:'PASS',scope:'Worker本体＋SQLite。実Cloudflare・ブラウザ再起動は別検証。'};
+fs.writeFileSync(new URL('../NOTES_BACKEND_TEST.json',import.meta.url),JSON.stringify(result,null,2));console.log(result);db.close();

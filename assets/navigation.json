@@ -1,0 +1,566 @@
+[
+  {
+    "name": "TOP",
+    "items": [
+      {
+        "path": "index.html",
+        "label": "総合INDEX"
+      }
+    ]
+  },
+  {
+    "name": "現在確認",
+    "items": [
+      {
+        "path": "00_CHATGPT_HANDOFF.html",
+        "label": "HANDOFF"
+      },
+      {
+        "path": "00_LOCKED_SPEC_疑似テスト前正本.html",
+        "label": "LOCKED SPEC"
+      },
+      {
+        "path": "01_CHANGELOG.html",
+        "label": "CHANGELOG"
+      },
+      {
+        "path": "board/MTA_画像修正版/review/index.html",
+        "label": "最新盤面"
+      }
+    ]
+  },
+  {
+    "name": "HO",
+    "items": [
+      {
+        "path": "review/06_PC1_HO-A.html",
+        "label": "PC1 剣持 一真 HO-A"
+      },
+      {
+        "path": "review/07_PC2_HO-A.html",
+        "label": "PC2 菱川 開二 HO-A"
+      },
+      {
+        "path": "review/08_PC3_HO-A.html",
+        "label": "PC3 三葉 美津 HO-A"
+      },
+      {
+        "path": "review/09_PC4_HO-A.html",
+        "label": "PC4 心原 四季 HO-A"
+      },
+      {
+        "path": "review/10_PC1_HO-B.html",
+        "label": "PC1 剣持 一真 HO-B"
+      },
+      {
+        "path": "review/11_PC2_HO-B.html",
+        "label": "PC2 菱川 開二 HO-B"
+      },
+      {
+        "path": "review/12_PC3_HO-B.html",
+        "label": "PC3 三葉 美津 HO-B"
+      },
+      {
+        "path": "review/13_PC4_HO-B.html",
+        "label": "PC4 心原 四季 HO-B"
+      }
+    ]
+  },
+  {
+    "name": "事件",
+    "items": [
+      {
+        "path": "review/17_第一事件真相.html",
+        "label": "第一事件真相／十文字愛・10／低確率の瞬間"
+      },
+      {
+        "path": "review/18_第二事件真相.html",
+        "label": "第二事件真相／九条晶・9／崖側窓移動"
+      },
+      {
+        "path": "review/19_第三事件真相.html",
+        "label": "第三事件真相／五十嵐朝陽・5／未来の遺書"
+      },
+      {
+        "path": "review/23_恐慌・逃走・崩落事故真相.html",
+        "label": "崩落事故真相／八神8・七瀬7・六角6"
+      },
+      {
+        "path": "review/29_最終推理導線.html",
+        "label": "最終推理導線／人間テスト直前正本"
+      },
+      {
+        "path": "review/33_PC1_作者犯人参照表.html",
+        "label": "PC1 作者・犯人参照表／非配布"
+      }
+    ]
+  },
+  {
+    "name": "タイムライン",
+    "items": [
+      {
+        "path": "review/14_全人物TL_完全版.html",
+        "label": "全人物完全タイムライン"
+      },
+      {
+        "path": "review/15_全人物TL_HO版.html",
+        "label": "全人物TL・プレイヤー参照版"
+      },
+      {
+        "path": "review/16_180分進行表.html",
+        "label": "約3時間進行表（基準180分）"
+      }
+    ]
+  },
+  {
+    "name": "調査カード C01〜C10",
+    "items": [
+      {
+        "path": "review/cards/C01.html",
+        "label": "C01｜倒れた十文字愛"
+      },
+      {
+        "path": "review/cards/C02.html",
+        "label": "C02｜後頭部の一撃"
+      },
+      {
+        "path": "review/cards/C03.html",
+        "label": "C03｜サービス通路の視線"
+      },
+      {
+        "path": "review/cards/C04.html",
+        "label": "C04｜真鍮製火かき棒"
+      },
+      {
+        "path": "review/cards/C05.html",
+        "label": "C05｜21時45分から22時の証言表"
+      },
+      {
+        "path": "review/cards/C06.html",
+        "label": "C06｜十文字の二分の遅れ"
+      },
+      {
+        "path": "review/cards/C07.html",
+        "label": "C07｜暖炉道具の清掃表"
+      },
+      {
+        "path": "review/cards/C08.html",
+        "label": "C08｜洗浄機の定時洗浄"
+      },
+      {
+        "path": "review/cards/C09.html",
+        "label": "C09｜十文字の呼び出しメモ"
+      },
+      {
+        "path": "review/cards/C10.html",
+        "label": "C10｜現場の10と青いデック"
+      }
+    ]
+  },
+  {
+    "name": "調査カード C11〜C20",
+    "items": [
+      {
+        "path": "review/cards/C11.html",
+        "label": "C11｜2階客室配置図"
+      },
+      {
+        "path": "review/cards/C12.html",
+        "label": "C12｜崖側の風速記録"
+      },
+      {
+        "path": "review/cards/C13.html",
+        "label": "C13｜208号室の崖側窓"
+      },
+      {
+        "path": "review/cards/C14.html",
+        "label": "C14｜209号室の崖側窓"
+      },
+      {
+        "path": "review/cards/C15.html",
+        "label": "C15｜崖側外壁の写真"
+      },
+      {
+        "path": "review/cards/C16.html",
+        "label": "C16｜九条の前日音声"
+      },
+      {
+        "path": "review/cards/C17.html",
+        "label": "C17｜強風と館内の軋み"
+      },
+      {
+        "path": "review/cards/C18.html",
+        "label": "C18｜開二の証言と借用証の写し"
+      },
+      {
+        "path": "review/cards/C19.html",
+        "label": "C19｜美津への未送信原稿"
+      },
+      {
+        "path": "review/cards/C20.html",
+        "label": "C20｜崖下の灰白色岩粉"
+      }
+    ]
+  },
+  {
+    "name": "調査カード C21〜C30",
+    "items": [
+      {
+        "path": "review/cards/C21.html",
+        "label": "C21｜20時35分のラウンジ写真"
+      },
+      {
+        "path": "review/cards/C22.html",
+        "label": "C22｜209号室の利用記録"
+      },
+      {
+        "path": "review/cards/C23.html",
+        "label": "C23｜本道と管理道"
+      },
+      {
+        "path": "review/cards/C24.html",
+        "label": "C24｜ワゴンと三人の荷物"
+      },
+      {
+        "path": "review/cards/C25.html",
+        "label": "C25｜可動柵の運用表"
+      },
+      {
+        "path": "review/cards/C26.html",
+        "label": "C26｜配送対応記録"
+      },
+      {
+        "path": "review/cards/C27.html",
+        "label": "C27｜返却済み保守鍵と斜面センサー"
+      },
+      {
+        "path": "review/cards/C28.html",
+        "label": "C28｜未提出点検表"
+      },
+      {
+        "path": "review/cards/C29.html",
+        "label": "C29｜七瀬の点検音声"
+      },
+      {
+        "path": "review/cards/C30.html",
+        "label": "C30｜六角の紹介料帳簿と借用証原本"
+      }
+    ]
+  },
+  {
+    "name": "調査カード C31〜C40",
+    "items": [
+      {
+        "path": "review/cards/C31.html",
+        "label": "C31｜208号室の九条晶"
+      },
+      {
+        "path": "review/cards/C32.html",
+        "label": "C32｜九条の死亡推定"
+      },
+      {
+        "path": "review/cards/C33.html",
+        "label": "C33｜208号室窓外の新しい痕跡"
+      },
+      {
+        "path": "review/cards/C34.html",
+        "label": "C34｜209号室窓の変化"
+      },
+      {
+        "path": "review/cards/C35.html",
+        "label": "C35｜PC四人の209号室滞在"
+      },
+      {
+        "path": "review/cards/C36.html",
+        "label": "C36｜倒れた五十嵐朝陽"
+      },
+      {
+        "path": "review/cards/C37.html",
+        "label": "C37｜事故後に書かれた本物の遺書"
+      },
+      {
+        "path": "review/cards/C38.html",
+        "label": "C38｜今夜分だけ違う錠剤"
+      },
+      {
+        "path": "review/cards/C39.html",
+        "label": "C39｜剣持一真の調査履歴"
+      },
+      {
+        "path": "review/cards/C40.html",
+        "label": "C40｜対応しない四つの記録"
+      }
+    ]
+  },
+  {
+    "name": "調査運用・追加資料",
+    "items": [
+      {
+        "path": "review/20_全調査カード一覧.html",
+        "label": "全調査カード一覧 Ver.4.1.1／人間テスト直前正本"
+      },
+      {
+        "path": "review/21_調査カード本文集.html",
+        "label": "調査カード本文集 Ver.4.1.1"
+      },
+      {
+        "path": "review/22_ジョー・カーメモ.html",
+        "label": "ジョー・カー設定と現行メモ6枚"
+      },
+      {
+        "path": "review/24_調査カード配分.html",
+        "label": "調査カード配分と開示ルール"
+      },
+      {
+        "path": "review/34_数字札取得・配置運用表.html",
+        "label": "数字札取得・配置運用表 Ver.4.1.1"
+      },
+      {
+        "path": "review/35_PC3固定回答カード.html",
+        "label": "PC3・朝陽への固定回答カード"
+      },
+      {
+        "path": "review/testplay/06_TEST_E_カード選択事故卓.html",
+        "label": "TEST E｜カード選択が悪い卓"
+      },
+      {
+        "path": "review/testplay/07_カード取得比較.html",
+        "label": "5卓・カード取得比較"
+      },
+      {
+        "path": "review/testplay/09_C39_C40_Jメモ強度.html",
+        "label": "C39・C40・J01～J06 強度測定"
+      }
+    ]
+  },
+  {
+    "name": "人物",
+    "items": [
+      {
+        "path": "review/02_登場人物一覧.html",
+        "label": "登場人物一覧 Ver.4.1.1"
+      },
+      {
+        "path": "review/03_トランプ対応一覧.html",
+        "label": "人物・数字・トランプ対応一覧"
+      },
+      {
+        "path": "review/04_人間関係表.html",
+        "label": "人間関係表"
+      },
+      {
+        "path": "review/05_PC目標一覧.html",
+        "label": "PC目標一覧"
+      },
+      {
+        "path": "review/characters/1.html",
+        "label": "1｜剣持 一真"
+      },
+      {
+        "path": "review/characters/2.html",
+        "label": "2｜菱川 開二"
+      },
+      {
+        "path": "review/characters/3.html",
+        "label": "3｜三葉 美津"
+      },
+      {
+        "path": "review/characters/4.html",
+        "label": "4｜心原 四季"
+      },
+      {
+        "path": "review/characters/5.html",
+        "label": "5｜五十嵐 朝陽"
+      },
+      {
+        "path": "review/characters/6.html",
+        "label": "6｜六角 影吾"
+      },
+      {
+        "path": "review/characters/7.html",
+        "label": "7｜七瀬 奏汰"
+      },
+      {
+        "path": "review/characters/8.html",
+        "label": "8｜八神 樹"
+      },
+      {
+        "path": "review/characters/9.html",
+        "label": "9｜九条 晶"
+      },
+      {
+        "path": "review/characters/10.html",
+        "label": "10｜十文字 愛"
+      },
+      {
+        "path": "review/characters/JOKER.html",
+        "label": "JOKER｜ジョー・カー"
+      }
+    ]
+  },
+  {
+    "name": "台本",
+    "items": [
+      {
+        "path": "review/32_全読み合わせ台本_統合版.html",
+        "label": "全読み合わせ台本・統合版 Ver.4.1.1"
+      },
+      {
+        "path": "review/scripts/00_台本一覧.html",
+        "label": "読み合わせ一覧 Ver.4.1.1"
+      },
+      {
+        "path": "review/scripts/01_OP_神経衰弱.html",
+        "label": "読み合わせ1｜OP――宿到着と神経衰弱"
+      },
+      {
+        "path": "review/scripts/02_第一事件.html",
+        "label": "読み合わせ2｜第一の死――10と隣室籠城"
+      },
+      {
+        "path": "review/scripts/03_第二事件.html",
+        "label": "読み合わせ3｜第二の死――9とPC四人疑惑"
+      },
+      {
+        "path": "review/scripts/04_恐慌と崩落事故.html",
+        "label": "読み合わせ4｜恐慌――勝手な逃走と崩落事故"
+      },
+      {
+        "path": "review/scripts/05_第三事件.html",
+        "label": "読み合わせ5｜第三の死――5、次は4"
+      },
+      {
+        "path": "review/scripts/06_ED.html",
+        "label": "読み合わせ6｜ED――投票後の最後の一組"
+      }
+    ]
+  },
+  {
+    "name": "地図",
+    "items": [
+      {
+        "path": "review/maps/1F.html",
+        "label": "ペンション1F"
+      },
+      {
+        "path": "review/maps/2F.html",
+        "label": "ペンション2F"
+      },
+      {
+        "path": "review/maps/surroundings.html",
+        "label": "周辺図"
+      },
+      {
+        "path": "review/maps/verification.html",
+        "label": "事件動線検証図"
+      }
+    ]
+  },
+  {
+    "name": "テスト",
+    "items": [
+      {
+        "path": "review/30_検証レポート.html",
+        "label": "Ver.4.1.1 人間テスト直前・65項目検証レポート"
+      },
+      {
+        "path": "review/36_人間テストで確認する項目.html",
+        "label": "人間テストで確認する項目 Ver.4.1.1"
+      },
+      {
+        "path": "review/testplay/00_TESTPLAY_INDEX.html",
+        "label": "Ver.4.0 疑似テストプレイ INDEX"
+      },
+      {
+        "path": "review/testplay/01_テスト条件と情報隔離.html",
+        "label": "テスト条件と情報隔離"
+      },
+      {
+        "path": "review/testplay/02_TEST_A_標準卓.html",
+        "label": "TEST A｜標準卓"
+      },
+      {
+        "path": "review/testplay/03_TEST_B_秘密保持卓.html",
+        "label": "TEST B｜秘密保持が強い卓"
+      },
+      {
+        "path": "review/testplay/04_TEST_C_推理強者卓.html",
+        "label": "TEST C｜推理強者卓"
+      },
+      {
+        "path": "review/testplay/05_TEST_D_朝陽ミスリード卓.html",
+        "label": "TEST D｜朝陽ミスリード卓"
+      },
+      {
+        "path": "review/testplay/08_PC別目標達成.html",
+        "label": "PC別目標達成"
+      },
+      {
+        "path": "review/testplay/10_100パターン到達テスト.html",
+        "label": "100パターン・カード到達ストレステスト"
+      },
+      {
+        "path": "review/testplay/11_問題一覧.html",
+        "label": "最重要問題一覧"
+      },
+      {
+        "path": "review/testplay/12_修正候補.html",
+        "label": "修正候補（未反映）"
+      },
+      {
+        "path": "review/testplay/13_総合テスト結果.html",
+        "label": "Ver.4.0 総合テスト結果"
+      }
+    ]
+  },
+  {
+    "name": "盤面",
+    "items": [
+      {
+        "path": "board/MTA_画像修正版/CHANGELOG.html",
+        "label": "CHANGELOG.md"
+      },
+      {
+        "path": "board/MTA_画像修正版/作業報告.html",
+        "label": "作業報告.md"
+      }
+    ]
+  },
+  {
+    "name": "その他資料",
+    "items": [
+      {
+        "path": "AI_HANDOFF.html",
+        "label": "AI_HANDOFF.md"
+      },
+      {
+        "path": "CHANGELOG.html",
+        "label": "CHANGELOG.md"
+      },
+      {
+        "path": "README_最初に読んでください.html",
+        "label": "README_最初に読んでください.txt"
+      },
+      {
+        "path": "README.html",
+        "label": "README.md"
+      },
+      {
+        "path": "review/00_INDEX.html",
+        "label": "神経衰弱 Ver.4.1.1 人間テスト直前 INDEX"
+      },
+      {
+        "path": "review/01_作品概要.html",
+        "label": "作品概要 Ver.4.1.1／人間テスト直前版"
+      },
+      {
+        "path": "review/index.html",
+        "label": "神経衰弱 Ver.4.1.1 人間テスト直前 INDEX"
+      },
+      {
+        "path": "WEB_VALIDATION.html",
+        "label": "Web検証"
+      }
+    ]
+  }
+]
