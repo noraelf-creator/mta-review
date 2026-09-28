@@ -46,7 +46,8 @@ write('.nojekyll','');
 write('README.md','# '+title+'\n\n作者確認用。全HO、犯人、真相を含む公開サイトです。URLを共有すると全真相を閲覧できます。noindexはアクセス制限ではありません。\n\n元CURRENTを読み取り、専用コピーのみWeb化しています。シナリオ本文は改稿しません。過去ZIP、バックアップ、実行用ショートカット、キャッシュは掲載しません。\n\n更新：このフォルダで update_mta_review.ps1 を実行。既定は生成・検査のみ。-Publish を付けると検査成功後にcommit/pushします。公開先はmainブランチのルート。\n\nGitHub Pages設定：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site\n');
 write('CHANGELOG.md','# Web変更履歴\n\n'+new Date().toISOString()+'：CURRENTから資料・画像をコピー。総合INDEX、文書HTML、相対参照、スマホ用表スクロール、リンク・秘密情報検査を生成。元データは未変更。公開状況はPUBLIC_URL.txtを参照。\n');
 write('AI_HANDOFF.md','# Web引き継ぎ\n\n公開予定URL：https://noraelf-creator.github.io/mta-review/\nリポジトリ：https://github.com/noraelf-creator/mta-review\nローカルWeb元：環境設定MTA_SOURCEと本スクリプトの保存フォルダを参照。\n元データ：ChatGPT共有の神経衰弱_CURRENT。読取専用。\n更新方法：update_mta_review.ps1。公開する場合 -Publish。\n掲載範囲：全HTML資料・地図・最新画像修正版・JSON・HANDOFF等の文書。\n非掲載：ZIP・ショートカット・バックアップ・MANIFEST。\n最終更新：'+new Date().toISOString()+'\nリンク検査：WEB_VALIDATION.md参照。実公開の確認結果：HTTP_VALIDATION.json参照（未作成なら未検証）。\n');
-for(const r of ['README.md','CHANGELOG.md','AI_HANDOFF.md']){const h=r.replace('.md','.html');write(h,page(r,'<pre>'+esc(fs.readFileSync(p.join(ROOT,r),'utf8'))+'</pre>',h));}
+if(fs.existsSync(p.join(ROOT,'PUBLIC_URL.txt'))){const f=p.join(ROOT,'AI_HANDOFF.md');write('AI_HANDOFF.md',fs.readFileSync(f,'utf8').replace('公開予定URL：','公開URL：')+'\nローカルWeb元：'+ROOT+'\n元シナリオCURRENT：'+SRC+'\n');}
+for(const r of ['README.md','CHANGELOG.md','AI_HANDOFF.md']){const h=r.replace('.md','.html');write(h,page(r,'<pre>'+esc(clean(fs.readFileSync(p.join(ROOT,r),'utf8')))+'</pre>',h));}
 // Reserve the validation page before crawling every internal reference.
 write('WEB_VALIDATION.html',page('Web検証','<p>検査中</p>','WEB_VALIDATION.html'));
 const report={updated:new Date().toISOString(),html:0,images:0,internalReferences:0,broken:[],localPaths:[],secretFindings:[],imageMissing:0,http404:'公開後検査待ち',sourceUnchanged:true,excluded};
@@ -68,6 +69,7 @@ report.sourceUnchanged=Object.entries(original).every(([f,h])=>hash(f)===h);
 if(fs.existsSync(p.join(ROOT,'HTTP_VALIDATION.json'))){const h=JSON.parse(fs.readFileSync(p.join(ROOT,'HTTP_VALIDATION.json')));report.http404=h.http404;report.httpCheckedAt=h.checkedAt;report.httpChecked=h.total;}
 write('WEB_VALIDATION.json',JSON.stringify(report,null,2));
 const summary='# Web検証\n\n'+report.updated+'\n\nHTML数：'+report.html+'\n画像数：'+report.images+'\n内部参照数：'+report.internalReferences+'\nリンク切れ：'+report.broken.length+'\nローカル絶対パス：'+report.localPaths.length+'\n画像欠落：'+report.imageMissing+'\n認証情報パターン検出：'+report.secretFindings.length+'\n元CURRENTのハッシュ一致：'+report.sourceUnchanged+'\nHTTP 404：公開後検査はHTTP_VALIDATION.json参照。\n全HTMLのhref/srcをURLデコードして検査。公開前の検査で実サイト表示の保証はしない。\n';
-write('WEB_VALIDATION.md',summary);write('WEB_VALIDATION.html',page('Web検証','<pre>'+esc(summary)+'</pre>','WEB_VALIDATION.html'));
+const finalSummary=summary+'\n公開HTTP検査：'+(report.httpChecked||0)+'件\n公開HTTP 404件数：'+report.http404+'\nfile参照：'+report.localPaths.length+'件\nCドライブ参照：'+report.localPaths.length+'件\nGドライブ参照：'+report.localPaths.length+'件\n';
+write('WEB_VALIDATION.md',finalSummary);write('WEB_VALIDATION.html',page('Web検証','<pre>'+esc(finalSummary)+'</pre>','WEB_VALIDATION.html'));
 console.log(JSON.stringify(report,null,2));
 if(report.broken.length||report.localPaths.length||report.secretFindings.length||!report.sourceUnchanged)process.exitCode=1;
