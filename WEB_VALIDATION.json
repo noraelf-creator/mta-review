@@ -1,0 +1,32 @@
+{
+  "updated": "2026-09-28T05:37:45.482Z",
+  "html": 121,
+  "images": 29,
+  "internalReferences": 1051,
+  "broken": [],
+  "localPaths": [],
+  "secretFindings": [],
+  "imageMissing": 0,
+  "http404": "公開後検査待ち",
+  "sourceUnchanged": true,
+  "excluded": [
+    "MANIFEST.txt",
+    "00_成果物を開く.bat",
+    "01_INDEXを開く.bat",
+    "00_ChatGPTに渡す_最新.zip",
+    "00_INDEXを開く.lnk",
+    "01_成果物フォルダ.lnk",
+    "02_ChatGPT共有ZIP.lnk",
+    "board/MTA_画像修正版/MTA_ココフォリア_通常版.zip",
+    "board/MTA_画像修正版/MTA_ココフォリア_5シーン入り.zip",
+    "board/MTA_画像修正版/MTA_全シーン通常ZIP集.zip",
+    "board/MTA_画像修正版/通常ZIP/01_共通メイン.zip",
+    "board/MTA_画像修正版/通常ZIP/02_第1調査.zip",
+    "board/MTA_画像修正版/通常ZIP/03_第2調査.zip",
+    "board/MTA_画像修正版/通常ZIP/04_第3調査.zip",
+    "board/MTA_画像修正版/通常ZIP/05_最終整理.zip",
+    "board/MTA_画像修正版/00_成果物を開く.bat",
+    "board/MTA_画像修正版/01_INDEXを開く.bat",
+    "board/MTA_画像修正版/MANIFEST.txt"
+  ]
+}

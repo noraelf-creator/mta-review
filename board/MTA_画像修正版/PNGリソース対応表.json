@@ -1,0 +1,826 @@
+{
+  "aliases": {
+    "board_background.svg": "9904789e9a0e1e19962c40ec751d834fb16ed3c628b4853474609fa75fa1c0a0.png",
+    "map_208.svg": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+    "map_209.svg": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+    "map_206.svg": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+    "map_common.svg": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+    "hidden_card.svg": "a176890d1175e9ae03faad1459e7536325d56dd416d07af8e39edda18f7669b2.png",
+    "player_1.svg": "9879b7ea52c87f5ea77cc5f68d5dd635ff4a8ceeb6e7aa1453497c54111f4e9b.png",
+    "player_2.svg": "400645d96763a0a7066c524e9fc647f8c5f0b72bcddbcfab1a07bc538c8c2a3c.png",
+    "player_3.svg": "04ac716f89ee88a224c40ad9e68fca3781307c163245379f156547c280943a88.png",
+    "player_4.svg": "f2583686bad8506b6d0efa7404af0a939cf398335c89c284756ac8c8541d0023.png",
+    "number_slots.svg": "8af2863268fa936b9ca6ebf7832fc80b2dbe2e80c6dc3862dd708e23a07c2c81.png",
+    "phase_01______.svg": "7eaef72700bc93e4d143cd411f28cfd2cba47784a0fbbc765965fd5c21b5dfec.png",
+    "guide_01______.svg": "81b2cf8147737a3d1801fb14f83401a051658049c02d1c6099e90147cbb88a0f.png",
+    "map_note_0.svg": "1b6cdc0dced8fccd3cbccee894af98274b3fcffb637badade0b1bdabeda0efc8.png",
+    "frame_0.svg": "658027d6ccc8f4b29772ab568213afc1bcfd8e537f54c57354c29591386c7ab6.png",
+    "frame_1.svg": "0132e12beaaa9af75bc7dea36ef4f8db3ed995f8562cb723f35ffde1051205b7.png",
+    "frame_2.svg": "68ede5e0add6b200b956a374b201d3d28ceaafe298f89fc8d84301d406fec8e6.png",
+    "phase_02__1__.svg": "2ac414baeb03599546f1fb98dece533fd9c14e3e0e3541d3cbe0ebd9d3e4a229.png",
+    "guide_02__1__.svg": "f084806afb5848a9356e3cf898e6f93d9b117543a872757c48ab17190ecf99bc.png",
+    "map_note_1.svg": "da6a4be7da4945ffee74054687566b42980f9cd0f5a84fe8b9a7289aed1df7c9.png",
+    "C01.svg": "915c5311f7518769df525e7779e4c0d273c2a6edf1122b4237ed35a63c24068d.png",
+    "C02.svg": "8501ec1e9590b8f49ed99b8903c9ee7fb26e68dc5f376d64373d1f1fd2b16be9.png",
+    "C03.svg": "f7eb355054a257549ef95f4a7bee43ba108910a5b26c720142272ab681857d4d.png",
+    "C04.svg": "9a4b263f0ef2e042740f00bca7f32a47c856d1b3acd18ffa120a4c5bdb1737f1.png",
+    "C05.svg": "ff729b29ab460887f35f637867c23c7a936e2ee447b107a3507a766c3605f0de.png",
+    "C06.svg": "f135840b70ffaef2826408025633fe2eb448a44dd73536f85967cce654785959.png",
+    "C07.svg": "05f20e3c202d3dcf2ad65ceba0fc31a291ba433bc0931c798508b2724b6ce311.png",
+    "C08.svg": "f08e42be070bb59870c7c1b840902db59dfc1dfef0822d4ed0f1678535338872.png",
+    "C09.svg": "dd3611b056d1681ab893d7b8bf45586c08aede0ed0cccea66ffc3a117d60aba3.png",
+    "C10.svg": "87ab1678f741af0b013040e2ff404888e99e1b867b73635e387c39b153d9cca3.png",
+    "C11.svg": "f68498c822101ea100ce570462262cb153d98402039526d3b639fd7648ded4ba.png",
+    "C12.svg": "04d8734441b3c9685479925a0f618445ddcc994e441d82e5e12baa8c5c8155a0.png",
+    "C13.svg": "8fdcca735c312db4c91b063e09fd4ae243e98d2ae2a43f5b0a4e85ab757b3a5b.png",
+    "C14.svg": "675e47208277936218b63d33fe9fac7fa4b14f67bd423b3a147ca8d1f1e806e4.png",
+    "C15.svg": "14229307279ba805e55cc44e4fffcd573e0b109c17e0e08ad8a2307cd6ee0feb.png",
+    "C16.svg": "cd5f870fd3b08a7c4d02caa3b7d0c49c75f126b4df948dbc68137ef8770f7001.png",
+    "C17.svg": "ece22349cc85c78be03032dcc45dd75f01e0b217bf5fe5f3999b888022bc9948.png",
+    "C18.svg": "d79ef1ac05fcd7290acbe6d710c4eb0132f5fb73be7e5cf542b610740948dbf1.png",
+    "C19.svg": "6afb397e6276fb4856d8fc11616e0a56b05980f802c090c401fd3ce38619a1c2.png",
+    "C20.svg": "7ca2b21b2ccb0500e087b1088fae851412f3d091b0902a5c52031737fd579ea6.png",
+    "C21.svg": "47d0e0ba1909f43fb3f5d2010a86ef6a65811bc720957ad824d917fe662e7120.png",
+    "C22.svg": "c081a69a08468ccbe3cdd349f6c307268af178c61d570d86368e79c0e52cbdce.png",
+    "C23.svg": "01ed51171e5bf13d11dab602caf3413dab503c99f15f873b435d1a9652a6d2b0.png",
+    "C24.svg": "b1131ff24ab50b9a2959b8d9c9308651d80943d1089bc95a8b45975c4294b8e4.png",
+    "C25.svg": "cfab7d33cc3a94ffa2480c0ccbd6c28128cd7a3cb99a7d002a54b26e8b69f0e5.png",
+    "C26.svg": "3ca7ab4f9310868aa1973c85279e148de5a0d0c9a93b5adac96a1cf26ab98bc5.png",
+    "C27.svg": "5760277fa80ed49190a82091bab4542113a97073c92048c5aff8009e58960d40.png",
+    "C28.svg": "820d5ec717d53b56e98defe0f23df4239256974eb49c0bcba83a59b74948f212.png",
+    "C29.svg": "65348266c2257a450687cfef7510a76048e5d7b077606dcc0472d2aeaa177212.png",
+    "C30.svg": "b8abdefedb32e490f2a62d176ed571bded6b8b7da4a329d2dde83b3884a34d06.png",
+    "phase_03__2__.svg": "84fe00d95d2a21e15ced6ba04c120c633814b94beff533fd016cd429a6c59c9d.png",
+    "guide_03__2__.svg": "9272a6f5cf919eaf606d10ace26d4b70aee35f32662298a5947d3c5f00f3eebb.png",
+    "map_note_2.svg": "ed7e39a160bcd5aff059956a02565d6f7dedf206696829a8d1089e0cdb215f7c.png",
+    "C31.svg": "414ccdb21f6132ac2808fa04b6216427a6a43360ea1219fe6b79b92f26c526ba.png",
+    "C32.svg": "64ff78167f3de66cbe176e2be012025bcdc26b6914bee13c8c1a13b2729c376e.png",
+    "C33.svg": "176efcf64fca050dfaa33ad3497275513eaf25bf0b92d44a4a27970fa635faa8.png",
+    "C34.svg": "2a69ff870ec2765a5a2272af4a2cce5b7924e89d158b270ee2f6e9b40b2ae584.png",
+    "C35.svg": "5a7d16b820b245aa64f02c762b191abd83d07eee9743775b118403f73cfb40ba.png",
+    "phase_04__3__.svg": "bfdcc774fe52e72317c56c4e1d5f7fc2a9a0ffedd51927cadfe137fe45c451c0.png",
+    "guide_04__3__.svg": "ce10ad278efac0b68d390e0e07929a1fd774293bd7b0560be2a47943f6c8a94b.png",
+    "map_note_3.svg": "fef35c5c1b9a54299a504fba0718d80d983dabea0e41abce4f0ac1927bfed957.png",
+    "C36.svg": "9be1f0265ecc4b33605bdb65af93b93e46f8937ccce8a08ab79f757ed7fed1a5.png",
+    "C37.svg": "83cc359d0adae7aac92e44cbd2a4022f59f70a51c6cd9e5926d1ac22318947f6.png",
+    "C38.svg": "2034398380d90ec5c0dc5652c0c75fc9a4bc1ffb42d2c63c5ec63ecf04c0b2d1.png",
+    "C39.svg": "4285096a11929e31c39713e319fad0c4c6892ec002a4480d152ddc46dcb5c06a.png",
+    "C40.svg": "187d45b359bdf4aead13e066bb8e6b6c0c8a8ee20c17e96f7a713a359099b37e.png",
+    "phase_05_____.svg": "e8f47c7510b3aead4d28589076b682c407e993ab850111c714f87ea277e66ce6.png",
+    "guide_05_____.svg": "1fe824b8eaebcd80ffd24c8cd9da375e2f9cf30c44b473ab787585c37607db34.png",
+    "map_note_4.svg": "1b6cdc0dced8fccd3cbccee894af98274b3fcffb637badade0b1bdabeda0efc8.png",
+    "J01.svg": "5bd665c970eb7db6575a4c21f257e13cef500954a1c66488e1b8d0f48f6cd278.png",
+    "J02.svg": "ea026efcf505bd7ddb72113c4d33be941f5c13dc745254b47dbb03933b42d9fc.png",
+    "J03.svg": "061f219207025c2a768a0c99501158a457e75422c6415bba2886561243ab1fe9.png",
+    "J04.svg": "38d9c93e257485561ddc8df20c12b7c46cfe8a1b3d683c00ec7b4f9e5b315b91.png",
+    "J05.svg": "ce0d8e2816865fa936d09686e156bfaad3f4ce6205aa6413192821a3b4026437.png",
+    "J06.svg": "112c2d4e5856cbaad1acc036d9ea9cc003cdd22fac1be82eab6d1acb1052e2c2.png",
+    "C39_work_panel.svg": "b66bd9927cc4851b715b46250193c966166eac93c6325b40b702e9ea031fda85.png",
+    "C40_work_panel.svg": "623354faa509f1b1d92dfb4b160276e7b7749f1b21b4a54f0542327a196850ed.png",
+    "conditional_ab.svg": "8260536b3cb4f0e44763b3ff8fb0951526c659ae6bcc007fd39ba12608c10f27.png",
+    "PC3_A_front": "ca165613b928d104af3fe9baeade30319dfe8fb9e95fc835140af159ba579e5d.png",
+    "PC3_A_cover": "849bc576e28b4c23a4de8ddca0dcfe2091cad8db1ac2d921b4547d08307d79f5.png",
+    "PC3_B_front": "a1ae9818b4ca645a9aa99c767a4915e606304db4c91f74df0f5e7c77e068eca3.png",
+    "PC3_B_cover": "ce575357a9790fefe5a21410069d1d13175ce49df0a5063b5d8ae7edce23d9d4.png"
+  },
+  "images": [
+    {
+      "alias": "board_background.svg",
+      "name": "9904789e9a0e1e19962c40ec751d834fb16ed3c628b4853474609fa75fa1c0a0.png",
+      "bytes": 182954,
+      "width": 4800,
+      "height": 2700,
+      "entropy": 0.009312037145491558,
+      "opaque": true
+    },
+    {
+      "alias": "map_208.svg",
+      "name": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+      "bytes": 109336,
+      "width": 1800,
+      "height": 1200,
+      "entropy": 1.7766942718881182,
+      "opaque": true
+    },
+    {
+      "alias": "map_209.svg",
+      "name": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+      "bytes": 109336,
+      "width": 1800,
+      "height": 1200,
+      "entropy": 1.7766942718881182,
+      "opaque": true
+    },
+    {
+      "alias": "map_206.svg",
+      "name": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+      "bytes": 109336,
+      "width": 1800,
+      "height": 1200,
+      "entropy": 1.7766942718881182,
+      "opaque": true
+    },
+    {
+      "alias": "map_common.svg",
+      "name": "6d884d919f8f662422445354984a321fd3a46539785bbfb50ef0cf04603b72f6.png",
+      "bytes": 109336,
+      "width": 1800,
+      "height": 1200,
+      "entropy": 1.7766942718881182,
+      "opaque": true
+    },
+    {
+      "alias": "hidden_card.svg",
+      "name": "a176890d1175e9ae03faad1459e7536325d56dd416d07af8e39edda18f7669b2.png",
+      "bytes": 9280,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.2787445689900778,
+      "opaque": true
+    },
+    {
+      "alias": "player_1.svg",
+      "name": "9879b7ea52c87f5ea77cc5f68d5dd635ff4a8ceeb6e7aa1453497c54111f4e9b.png",
+      "bytes": 21255,
+      "width": 600,
+      "height": 570,
+      "entropy": 0.8994896783879085,
+      "opaque": true
+    },
+    {
+      "alias": "player_2.svg",
+      "name": "400645d96763a0a7066c524e9fc647f8c5f0b72bcddbcfab1a07bc538c8c2a3c.png",
+      "bytes": 21665,
+      "width": 600,
+      "height": 570,
+      "entropy": 0.9041979565809015,
+      "opaque": true
+    },
+    {
+      "alias": "player_3.svg",
+      "name": "04ac716f89ee88a224c40ad9e68fca3781307c163245379f156547c280943a88.png",
+      "bytes": 21813,
+      "width": 600,
+      "height": 570,
+      "entropy": 0.909309209586354,
+      "opaque": true
+    },
+    {
+      "alias": "player_4.svg",
+      "name": "f2583686bad8506b6d0efa7404af0a939cf398335c89c284756ac8c8541d0023.png",
+      "bytes": 21991,
+      "width": 600,
+      "height": 582,
+      "entropy": 0.891888747428311,
+      "opaque": true
+    },
+    {
+      "alias": "number_slots.svg",
+      "name": "8af2863268fa936b9ca6ebf7832fc80b2dbe2e80c6dc3862dd708e23a07c2c81.png",
+      "bytes": 35436,
+      "width": 720,
+      "height": 792,
+      "entropy": 1.063057274579478,
+      "opaque": true
+    },
+    {
+      "alias": "phase_01______.svg",
+      "name": "7eaef72700bc93e4d143cd411f28cfd2cba47784a0fbbc765965fd5c21b5dfec.png",
+      "bytes": 33580,
+      "width": 4680,
+      "height": 156,
+      "entropy": 1.2201396818945796,
+      "opaque": true
+    },
+    {
+      "alias": "guide_01______.svg",
+      "name": "81b2cf8147737a3d1801fb14f83401a051658049c02d1c6099e90147cbb88a0f.png",
+      "bytes": 30782,
+      "width": 720,
+      "height": 750,
+      "entropy": 1.062291401780385,
+      "opaque": true
+    },
+    {
+      "alias": "map_note_0.svg",
+      "name": "1b6cdc0dced8fccd3cbccee894af98274b3fcffb637badade0b1bdabeda0efc8.png",
+      "bytes": 10942,
+      "width": 708,
+      "height": 162,
+      "entropy": 0.6060336530208588,
+      "opaque": true
+    },
+    {
+      "alias": "frame_0.svg",
+      "name": "658027d6ccc8f4b29772ab568213afc1bcfd8e537f54c57354c29591386c7ab6.png",
+      "bytes": 77023,
+      "width": 3240,
+      "height": 1440,
+      "entropy": 0.11988252555238432,
+      "opaque": true
+    },
+    {
+      "alias": "frame_1.svg",
+      "name": "0132e12beaaa9af75bc7dea36ef4f8db3ed995f8562cb723f35ffde1051205b7.png",
+      "bytes": 32320,
+      "width": 1590,
+      "height": 882,
+      "entropy": 0.22793397306031693,
+      "opaque": true
+    },
+    {
+      "alias": "frame_2.svg",
+      "name": "68ede5e0add6b200b956a374b201d3d28ceaafe298f89fc8d84301d406fec8e6.png",
+      "bytes": 33041,
+      "width": 1590,
+      "height": 882,
+      "entropy": 0.22990822090105212,
+      "opaque": true
+    },
+    {
+      "alias": "phase_02__1__.svg",
+      "name": "2ac414baeb03599546f1fb98dece533fd9c14e3e0e3541d3cbe0ebd9d3e4a229.png",
+      "bytes": 36630,
+      "width": 4680,
+      "height": 156,
+      "entropy": 1.2206981536255626,
+      "opaque": true
+    },
+    {
+      "alias": "guide_02__1__.svg",
+      "name": "f084806afb5848a9356e3cf898e6f93d9b117543a872757c48ab17190ecf99bc.png",
+      "bytes": 28008,
+      "width": 720,
+      "height": 750,
+      "entropy": 0.9883599684908404,
+      "opaque": true
+    },
+    {
+      "alias": "map_note_1.svg",
+      "name": "da6a4be7da4945ffee74054687566b42980f9cd0f5a84fe8b9a7289aed1df7c9.png",
+      "bytes": 11235,
+      "width": 708,
+      "height": 162,
+      "entropy": 0.7015899358084425,
+      "opaque": true
+    },
+    {
+      "alias": "C01.svg",
+      "name": "915c5311f7518769df525e7779e4c0d273c2a6edf1122b4237ed35a63c24068d.png",
+      "bytes": 19700,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.9518373353639618,
+      "opaque": true
+    },
+    {
+      "alias": "C02.svg",
+      "name": "8501ec1e9590b8f49ed99b8903c9ee7fb26e68dc5f376d64373d1f1fd2b16be9.png",
+      "bytes": 23800,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1196114098711405,
+      "opaque": true
+    },
+    {
+      "alias": "C03.svg",
+      "name": "f7eb355054a257549ef95f4a7bee43ba108910a5b26c720142272ab681857d4d.png",
+      "bytes": 21606,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0660207055625506,
+      "opaque": true
+    },
+    {
+      "alias": "C04.svg",
+      "name": "9a4b263f0ef2e042740f00bca7f32a47c856d1b3acd18ffa120a4c5bdb1737f1.png",
+      "bytes": 22821,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0983679699420463,
+      "opaque": true
+    },
+    {
+      "alias": "C05.svg",
+      "name": "ff729b29ab460887f35f637867c23c7a936e2ee447b107a3507a766c3605f0de.png",
+      "bytes": 21551,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1384081859432627,
+      "opaque": true
+    },
+    {
+      "alias": "C06.svg",
+      "name": "f135840b70ffaef2826408025633fe2eb448a44dd73536f85967cce654785959.png",
+      "bytes": 20064,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.9770460147119593,
+      "opaque": true
+    },
+    {
+      "alias": "C07.svg",
+      "name": "05f20e3c202d3dcf2ad65ceba0fc31a291ba433bc0931c798508b2724b6ce311.png",
+      "bytes": 19855,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.03936005543801,
+      "opaque": true
+    },
+    {
+      "alias": "C08.svg",
+      "name": "f08e42be070bb59870c7c1b840902db59dfc1dfef0822d4ed0f1678535338872.png",
+      "bytes": 22218,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1495011776860338,
+      "opaque": true
+    },
+    {
+      "alias": "C09.svg",
+      "name": "dd3611b056d1681ab893d7b8bf45586c08aede0ed0cccea66ffc3a117d60aba3.png",
+      "bytes": 20096,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.9793991172628012,
+      "opaque": true
+    },
+    {
+      "alias": "C10.svg",
+      "name": "87ab1678f741af0b013040e2ff404888e99e1b867b73635e387c39b153d9cca3.png",
+      "bytes": 22127,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0733977436902933,
+      "opaque": true
+    },
+    {
+      "alias": "C11.svg",
+      "name": "f68498c822101ea100ce570462262cb153d98402039526d3b639fd7648ded4ba.png",
+      "bytes": 19747,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0251100011810195,
+      "opaque": true
+    },
+    {
+      "alias": "C12.svg",
+      "name": "04d8734441b3c9685479925a0f618445ddcc994e441d82e5e12baa8c5c8155a0.png",
+      "bytes": 20598,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.9813459755969234,
+      "opaque": true
+    },
+    {
+      "alias": "C13.svg",
+      "name": "8fdcca735c312db4c91b063e09fd4ae243e98d2ae2a43f5b0a4e85ab757b3a5b.png",
+      "bytes": 22551,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0905239901621826,
+      "opaque": true
+    },
+    {
+      "alias": "C14.svg",
+      "name": "675e47208277936218b63d33fe9fac7fa4b14f67bd423b3a147ca8d1f1e806e4.png",
+      "bytes": 20330,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0080844140029512,
+      "opaque": true
+    },
+    {
+      "alias": "C15.svg",
+      "name": "14229307279ba805e55cc44e4fffcd573e0b109c17e0e08ad8a2307cd6ee0feb.png",
+      "bytes": 21148,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.113571034919005,
+      "opaque": true
+    },
+    {
+      "alias": "C16.svg",
+      "name": "cd5f870fd3b08a7c4d02caa3b7d0c49c75f126b4df948dbc68137ef8770f7001.png",
+      "bytes": 20205,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0354129136248957,
+      "opaque": true
+    },
+    {
+      "alias": "C17.svg",
+      "name": "ece22349cc85c78be03032dcc45dd75f01e0b217bf5fe5f3999b888022bc9948.png",
+      "bytes": 21776,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0838782033824828,
+      "opaque": true
+    },
+    {
+      "alias": "C18.svg",
+      "name": "d79ef1ac05fcd7290acbe6d710c4eb0132f5fb73be7e5cf542b610740948dbf1.png",
+      "bytes": 21540,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1297122347168624,
+      "opaque": true
+    },
+    {
+      "alias": "C19.svg",
+      "name": "6afb397e6276fb4856d8fc11616e0a56b05980f802c090c401fd3ce38619a1c2.png",
+      "bytes": 22280,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1166026305872947,
+      "opaque": true
+    },
+    {
+      "alias": "C20.svg",
+      "name": "7ca2b21b2ccb0500e087b1088fae851412f3d091b0902a5c52031737fd579ea6.png",
+      "bytes": 22280,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.134427096840227,
+      "opaque": true
+    },
+    {
+      "alias": "C21.svg",
+      "name": "47d0e0ba1909f43fb3f5d2010a86ef6a65811bc720957ad824d917fe662e7120.png",
+      "bytes": 22158,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1170982702460606,
+      "opaque": true
+    },
+    {
+      "alias": "C22.svg",
+      "name": "c081a69a08468ccbe3cdd349f6c307268af178c61d570d86368e79c0e52cbdce.png",
+      "bytes": 21502,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1016842857643496,
+      "opaque": true
+    },
+    {
+      "alias": "C23.svg",
+      "name": "01ed51171e5bf13d11dab602caf3413dab503c99f15f873b435d1a9652a6d2b0.png",
+      "bytes": 20544,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1002373015799094,
+      "opaque": true
+    },
+    {
+      "alias": "C24.svg",
+      "name": "b1131ff24ab50b9a2959b8d9c9308651d80943d1089bc95a8b45975c4294b8e4.png",
+      "bytes": 20663,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0803526033705566,
+      "opaque": true
+    },
+    {
+      "alias": "C25.svg",
+      "name": "cfab7d33cc3a94ffa2480c0ccbd6c28128cd7a3cb99a7d002a54b26e8b69f0e5.png",
+      "bytes": 21280,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1483646230772138,
+      "opaque": true
+    },
+    {
+      "alias": "C26.svg",
+      "name": "3ca7ab4f9310868aa1973c85279e148de5a0d0c9a93b5adac96a1cf26ab98bc5.png",
+      "bytes": 20940,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0277232005319092,
+      "opaque": true
+    },
+    {
+      "alias": "C27.svg",
+      "name": "5760277fa80ed49190a82091bab4542113a97073c92048c5aff8009e58960d40.png",
+      "bytes": 24973,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.269055435259361,
+      "opaque": true
+    },
+    {
+      "alias": "C28.svg",
+      "name": "820d5ec717d53b56e98defe0f23df4239256974eb49c0bcba83a59b74948f212.png",
+      "bytes": 21689,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1280485554016195,
+      "opaque": true
+    },
+    {
+      "alias": "C29.svg",
+      "name": "65348266c2257a450687cfef7510a76048e5d7b077606dcc0472d2aeaa177212.png",
+      "bytes": 21012,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0516916543710977,
+      "opaque": true
+    },
+    {
+      "alias": "C30.svg",
+      "name": "b8abdefedb32e490f2a62d176ed571bded6b8b7da4a329d2dde83b3884a34d06.png",
+      "bytes": 25371,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.3037422815104946,
+      "opaque": true
+    },
+    {
+      "alias": "phase_03__2__.svg",
+      "name": "84fe00d95d2a21e15ced6ba04c120c633814b94beff533fd016cd429a6c59c9d.png",
+      "bytes": 36613,
+      "width": 4680,
+      "height": 156,
+      "entropy": 1.2205109771057323,
+      "opaque": true
+    },
+    {
+      "alias": "guide_03__2__.svg",
+      "name": "9272a6f5cf919eaf606d10ace26d4b70aee35f32662298a5947d3c5f00f3eebb.png",
+      "bytes": 28259,
+      "width": 720,
+      "height": 750,
+      "entropy": 0.9899888340405596,
+      "opaque": true
+    },
+    {
+      "alias": "map_note_2.svg",
+      "name": "ed7e39a160bcd5aff059956a02565d6f7dedf206696829a8d1089e0cdb215f7c.png",
+      "bytes": 9779,
+      "width": 708,
+      "height": 162,
+      "entropy": 0.602169799793046,
+      "opaque": true
+    },
+    {
+      "alias": "C31.svg",
+      "name": "414ccdb21f6132ac2808fa04b6216427a6a43360ea1219fe6b79b92f26c526ba.png",
+      "bytes": 20839,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.0568878795020282,
+      "opaque": true
+    },
+    {
+      "alias": "C32.svg",
+      "name": "64ff78167f3de66cbe176e2be012025bcdc26b6914bee13c8c1a13b2729c376e.png",
+      "bytes": 19412,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.9522367078752723,
+      "opaque": true
+    },
+    {
+      "alias": "C33.svg",
+      "name": "176efcf64fca050dfaa33ad3497275513eaf25bf0b92d44a4a27970fa635faa8.png",
+      "bytes": 25214,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.220920648163883,
+      "opaque": true
+    },
+    {
+      "alias": "C34.svg",
+      "name": "2a69ff870ec2765a5a2272af4a2cce5b7924e89d158b270ee2f6e9b40b2ae584.png",
+      "bytes": 22526,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1191018377430737,
+      "opaque": true
+    },
+    {
+      "alias": "C35.svg",
+      "name": "5a7d16b820b245aa64f02c762b191abd83d07eee9743775b118403f73cfb40ba.png",
+      "bytes": 20169,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.968411359761376,
+      "opaque": true
+    },
+    {
+      "alias": "phase_04__3__.svg",
+      "name": "bfdcc774fe52e72317c56c4e1d5f7fc2a9a0ffedd51927cadfe137fe45c451c0.png",
+      "bytes": 36679,
+      "width": 4680,
+      "height": 156,
+      "entropy": 1.2205289923531382,
+      "opaque": true
+    },
+    {
+      "alias": "guide_04__3__.svg",
+      "name": "ce10ad278efac0b68d390e0e07929a1fd774293bd7b0560be2a47943f6c8a94b.png",
+      "bytes": 28151,
+      "width": 720,
+      "height": 750,
+      "entropy": 0.9880304149846779,
+      "opaque": true
+    },
+    {
+      "alias": "map_note_3.svg",
+      "name": "fef35c5c1b9a54299a504fba0718d80d983dabea0e41abce4f0ac1927bfed957.png",
+      "bytes": 9792,
+      "width": 708,
+      "height": 162,
+      "entropy": 0.657885621621972,
+      "opaque": true
+    },
+    {
+      "alias": "C36.svg",
+      "name": "9be1f0265ecc4b33605bdb65af93b93e46f8937ccce8a08ab79f757ed7fed1a5.png",
+      "bytes": 21338,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.1279109364259057,
+      "opaque": true
+    },
+    {
+      "alias": "C37.svg",
+      "name": "83cc359d0adae7aac92e44cbd2a4022f59f70a51c6cd9e5926d1ac22318947f6.png",
+      "bytes": 23713,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.2081245329754893,
+      "opaque": true
+    },
+    {
+      "alias": "C38.svg",
+      "name": "2034398380d90ec5c0dc5652c0c75fc9a4bc1ffb42d2c63c5ec63ecf04c0b2d1.png",
+      "bytes": 22496,
+      "width": 276,
+      "height": 375,
+      "entropy": 2.144265639828518,
+      "opaque": true
+    },
+    {
+      "alias": "C39.svg",
+      "name": "4285096a11929e31c39713e319fad0c4c6892ec002a4480d152ddc46dcb5c06a.png",
+      "bytes": 13602,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.7077347922313493,
+      "opaque": true
+    },
+    {
+      "alias": "C40.svg",
+      "name": "187d45b359bdf4aead13e066bb8e6b6c0c8a8ee20c17e96f7a713a359099b37e.png",
+      "bytes": 11570,
+      "width": 276,
+      "height": 375,
+      "entropy": 1.5240026863466483,
+      "opaque": true
+    },
+    {
+      "alias": "phase_05_____.svg",
+      "name": "e8f47c7510b3aead4d28589076b682c407e993ab850111c714f87ea277e66ce6.png",
+      "bytes": 33776,
+      "width": 4680,
+      "height": 156,
+      "entropy": 1.2192008774964052,
+      "opaque": true
+    },
+    {
+      "alias": "guide_05_____.svg",
+      "name": "1fe824b8eaebcd80ffd24c8cd9da375e2f9cf30c44b473ab787585c37607db34.png",
+      "bytes": 31633,
+      "width": 720,
+      "height": 750,
+      "entropy": 1.0531091395496333,
+      "opaque": true
+    },
+    {
+      "alias": "map_note_4.svg",
+      "name": "1b6cdc0dced8fccd3cbccee894af98274b3fcffb637badade0b1bdabeda0efc8.png",
+      "bytes": 10942,
+      "width": 708,
+      "height": 162,
+      "entropy": 0.6060336530208588,
+      "opaque": true
+    },
+    {
+      "alias": "J01.svg",
+      "name": "5bd665c970eb7db6575a4c21f257e13cef500954a1c66488e1b8d0f48f6cd278.png",
+      "bytes": 18619,
+      "width": 225,
+      "height": 336,
+      "entropy": 2.1281400791194756,
+      "opaque": true
+    },
+    {
+      "alias": "J02.svg",
+      "name": "ea026efcf505bd7ddb72113c4d33be941f5c13dc745254b47dbb03933b42d9fc.png",
+      "bytes": 16629,
+      "width": 225,
+      "height": 336,
+      "entropy": 2.0072792905557435,
+      "opaque": true
+    },
+    {
+      "alias": "J03.svg",
+      "name": "061f219207025c2a768a0c99501158a457e75422c6415bba2886561243ab1fe9.png",
+      "bytes": 16420,
+      "width": 225,
+      "height": 336,
+      "entropy": 1.9816331430629361,
+      "opaque": true
+    },
+    {
+      "alias": "J04.svg",
+      "name": "38d9c93e257485561ddc8df20c12b7c46cfe8a1b3d683c00ec7b4f9e5b315b91.png",
+      "bytes": 16903,
+      "width": 225,
+      "height": 336,
+      "entropy": 1.9588976032682694,
+      "opaque": true
+    },
+    {
+      "alias": "J05.svg",
+      "name": "ce0d8e2816865fa936d09686e156bfaad3f4ce6205aa6413192821a3b4026437.png",
+      "bytes": 13569,
+      "width": 225,
+      "height": 336,
+      "entropy": 1.8343453935231082,
+      "opaque": true
+    },
+    {
+      "alias": "J06.svg",
+      "name": "112c2d4e5856cbaad1acc036d9ea9cc003cdd22fac1be82eab6d1acb1052e2c2.png",
+      "bytes": 15624,
+      "width": 225,
+      "height": 336,
+      "entropy": 1.8472178509400692,
+      "opaque": true
+    },
+    {
+      "alias": "C39_work_panel.svg",
+      "name": "b66bd9927cc4851b715b46250193c966166eac93c6325b40b702e9ea031fda85.png",
+      "bytes": 46230,
+      "width": 750,
+      "height": 795,
+      "entropy": 1.2342803299761727,
+      "opaque": true
+    },
+    {
+      "alias": "C40_work_panel.svg",
+      "name": "623354faa509f1b1d92dfb4b160276e7b7749f1b21b4a54f0542327a196850ed.png",
+      "bytes": 51178,
+      "width": 780,
+      "height": 795,
+      "entropy": 1.1873848025134066,
+      "opaque": true
+    },
+    {
+      "alias": "conditional_ab.svg",
+      "name": "8260536b3cb4f0e44763b3ff8fb0951526c659ae6bcc007fd39ba12608c10f27.png",
+      "bytes": 36637,
+      "width": 708,
+      "height": 300,
+      "entropy": 1.6820247458526865,
+      "opaque": true
+    },
+    {
+      "alias": "PC3_A_front",
+      "name": "ca165613b928d104af3fe9baeade30319dfe8fb9e95fc835140af159ba579e5d.png",
+      "bytes": 44329,
+      "width": 580,
+      "height": 500,
+      "entropy": 1.8701393501833081,
+      "opaque": true
+    },
+    {
+      "alias": "PC3_A_cover",
+      "name": "849bc576e28b4c23a4de8ddca0dcfe2091cad8db1ac2d921b4547d08307d79f5.png",
+      "bytes": 37540,
+      "width": 580,
+      "height": 500,
+      "entropy": 1.8355554023873992,
+      "opaque": true
+    },
+    {
+      "alias": "PC3_B_front",
+      "name": "a1ae9818b4ca645a9aa99c767a4915e606304db4c91f74df0f5e7c77e068eca3.png",
+      "bytes": 46037,
+      "width": 580,
+      "height": 500,
+      "entropy": 1.9342378900400945,
+      "opaque": true
+    },
+    {
+      "alias": "PC3_B_cover",
+      "name": "ce575357a9790fefe5a21410069d1d13175ce49df0a5063b5d8ae7edce23d9d4.png",
+      "bytes": 37517,
+      "width": 580,
+      "height": 500,
+      "entropy": 1.8653932043598616,
+      "opaque": true
+    }
+  ]
+}

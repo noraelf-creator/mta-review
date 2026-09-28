@@ -1,0 +1,36 @@
+{
+  "broken": {
+    "png": 0,
+    "svg": 78,
+    "resources": 78,
+    "markerShape": [
+      "x",
+      "y",
+      "z",
+      "angle",
+      "width",
+      "height",
+      "deckId",
+      "locked",
+      "visible",
+      "closed",
+      "freezed",
+      "type",
+      "active",
+      "memo",
+      "imageUrl",
+      "coverImageUrl",
+      "order"
+    ]
+  },
+  "previousNormal": {
+    "png": 108,
+    "resources": 108,
+    "items": 64
+  },
+  "cause": [
+    "専用出力スクリプトがPNG化せずSVGを78件格納した。通常ジェネレーターのaddPngを使用していなかった。",
+    "専用出力スクリプトがscene.markersにもSCREEN PANEL形式(type/visible/memo等)を流用していた。",
+    "旧21項目検証にはPNG署名・画素デコード・markerスキーマの検査がなかった。"
+  ]
+}

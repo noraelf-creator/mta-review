@@ -1,0 +1,142 @@
+{
+  "title": "M.T.A. — MurdeR Trick Algorithm —",
+  "createdAt": "2026-09-27 16:49:09 JST",
+  "comparison": {
+    "broken": {
+      "png": 0,
+      "svg": 78,
+      "resources": 78,
+      "markerShape": [
+        "x",
+        "y",
+        "z",
+        "angle",
+        "width",
+        "height",
+        "deckId",
+        "locked",
+        "visible",
+        "closed",
+        "freezed",
+        "type",
+        "active",
+        "memo",
+        "imageUrl",
+        "coverImageUrl",
+        "order"
+      ]
+    },
+    "previousNormal": {
+      "png": 108,
+      "resources": 108,
+      "items": 64
+    },
+    "cause": [
+      "専用出力スクリプトがPNG化せずSVGを78件格納した。通常ジェネレーターのaddPngを使用していなかった。",
+      "専用出力スクリプトがscene.markersにもSCREEN PANEL形式(type/visible/memo等)を流用していた。",
+      "旧21項目検証にはPNG署名・画素デコード・markerスキーマの検査がなかった。"
+    ]
+  },
+  "sourceHashes": {
+    "index": "6397e262e96d06ea2f6802ab0df91af70ef99f2229cc28f4bc3061ad37e3a47e",
+    "project": "b72f96a925863d17c3d90d6e5a53eca37b7a1424f6d16c1c7c2f0590d8ce6512",
+    "master": "757540a2c32e45221c0bb9aa6bec214430029c2f4d9e5e88c0e12d8de914b408",
+    "brokenZip": "342b72f5cd03d4e9b87c01c7ec902a3253d6891b1c460ce0b222ccb23667d29f"
+  },
+  "outputs": [
+    {
+      "file": "通常ZIP/01_共通メイン.zip",
+      "bytes": 284829,
+      "sha256": "dc61efc53f4ed68108b9e09fea745b0429fe34c6a83953eda6b76ea9c5bb2cb0",
+      "png": 14,
+      "resources": 14,
+      "items": 53,
+      "scenes": 0,
+      "imageReferenceErrors": 0,
+      "crc": "PASS",
+      "pngDecode": "PASS"
+    },
+    {
+      "file": "通常ZIP/02_第1調査.zip",
+      "bytes": 889181,
+      "sha256": "887fd4423c7f708c5279a801b9f21400d4a57733d90c109ff078b223cc87e829",
+      "png": 44,
+      "resources": 44,
+      "items": 53,
+      "scenes": 0,
+      "imageReferenceErrors": 0,
+      "crc": "PASS",
+      "pngDecode": "PASS"
+    },
+    {
+      "file": "通常ZIP/03_第2調査.zip",
+      "bytes": 989114,
+      "sha256": "4ceb96580cab9e65ced7ee9315e5e3cdd9c41980d0fea7fd75db6d8491f02a13",
+      "png": 49,
+      "resources": 49,
+      "items": 53,
+      "scenes": 0,
+      "imageReferenceErrors": 0,
+      "crc": "PASS",
+      "pngDecode": "PASS"
+    },
+    {
+      "file": "通常ZIP/04_第3調査.zip",
+      "bytes": 1067129,
+      "sha256": "bbd9709f3ee4d006679dace9faa32e98179357b50b309cc012b69420a3f842b3",
+      "png": 53,
+      "resources": 53,
+      "items": 53,
+      "scenes": 0,
+      "imageReferenceErrors": 0,
+      "crc": "PASS",
+      "pngDecode": "PASS"
+    },
+    {
+      "file": "通常ZIP/05_最終整理.zip",
+      "bytes": 1391715,
+      "sha256": "1ec690689325aee064ccc4d374660c6641d3f3a3f4e0b8324ea37d9a37cf4468",
+      "png": 65,
+      "resources": 65,
+      "items": 63,
+      "scenes": 0,
+      "imageReferenceErrors": 0,
+      "crc": "PASS",
+      "pngDecode": "PASS"
+    },
+    {
+      "file": "MTA_ココフォリア_5シーン入り.zip",
+      "bytes": 1618592,
+      "sha256": "83550fd8e61141c315235af1690a056e5f711057015af6e336d709881ffd7d99",
+      "png": 77,
+      "resources": 77,
+      "items": 6,
+      "scenes": 5,
+      "imageReferenceErrors": 0,
+      "crc": "PASS",
+      "pngDecode": "PASS"
+    }
+  ],
+  "projectReload": "PASS (JSON再読込・既存テンプレート検証関数)",
+  "template": {
+    "inBounds": true,
+    "cardOverlaps": 0,
+    "zoneOverlaps": 0,
+    "outerOverlaps": 0,
+    "pass": true
+  },
+  "cardCount": 40,
+  "unchangedCardText": true,
+  "unchangedCardCoordinates": true,
+  "pngDecode": "全PNGをZIPからデコード成功",
+  "textOverflow": [],
+  "generatorChanged": false,
+  "scenarioChanged": false,
+  "liveImport": "未実施",
+  "notes": [
+    "通常版はシーン0件が仕様。5つのシーンは通常ZIPを各1本、実験版ではscenesに5件。",
+    "最終整理のC39/C40大型パネルは前版同様C36〜C40の上に重なる。可動パネルなので参照時に移動できる。",
+    "PC3固定回答の元版は条件説明のみだった。今回は正本の回答A/Bをそのまま画像化し、条件面で覆って格納。",
+    "SVGを画像リソースとして登録しない。PNG署名・SHA256・resources参照・CRC・画素まで検査。"
+  ]
+}
