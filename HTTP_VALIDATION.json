@@ -1,0 +1,969 @@
+{
+  "checkedAt": "2026-09-28T05:38:49.476Z",
+  "base": "https://noraelf-creator.github.io/mta-review/",
+  "total": 160,
+  "failures": [],
+  "http404": 0,
+  "results": [
+    {
+      "file": "assets/web.css",
+      "status": 200,
+      "bytes": 700,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/CHANGELOG.html",
+      "status": 200,
+      "bytes": 1223,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "00_CHATGPT_HANDOFF.html",
+      "status": 200,
+      "bytes": 9057,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "01_CHANGELOG.html",
+      "status": 200,
+      "bytes": 17299,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "00_LOCKED_SPEC_疑似テスト前正本.html",
+      "status": 200,
+      "bytes": 16693,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "AI_HANDOFF.html",
+      "status": 200,
+      "bytes": 1125,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/PNGリソース対応表.json",
+      "status": 200,
+      "bytes": 27891,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/project.json",
+      "status": 200,
+      "bytes": 1889958,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/ZIP内部確認レポート.json",
+      "status": 200,
+      "bytes": 4366,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/旧ZIPと通常出力の比較.json",
+      "status": 200,
+      "bytes": 831,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/review/index.html",
+      "status": 200,
+      "bytes": 4890,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C10.png",
+      "status": 200,
+      "bytes": 22127,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C01.png",
+      "status": 200,
+      "bytes": 19700,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/作業報告.html",
+      "status": 200,
+      "bytes": 1919,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C30.png",
+      "status": 200,
+      "bytes": 25371,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C31.png",
+      "status": 200,
+      "bytes": 20839,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C35.png",
+      "status": 200,
+      "bytes": 20169,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C39.png",
+      "status": 200,
+      "bytes": 13602,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C40.png",
+      "status": 200,
+      "bytes": 11570,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C36.png",
+      "status": 200,
+      "bytes": 21338,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C40_work_panel.png",
+      "status": 200,
+      "bytes": 51178,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/J01.png",
+      "status": 200,
+      "bytes": 18619,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/C39_work_panel.png",
+      "status": 200,
+      "bytes": 46230,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/J02.png",
+      "status": 200,
+      "bytes": 16629,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/J03.png",
+      "status": 200,
+      "bytes": 16420,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/J04.png",
+      "status": 200,
+      "bytes": 16903,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/J06.png",
+      "status": 200,
+      "bytes": 15624,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/J05.png",
+      "status": 200,
+      "bytes": 13569,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/PC3_B_front.png",
+      "status": 200,
+      "bytes": 46037,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/PC3_A_front.png",
+      "status": 200,
+      "bytes": 44329,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/map_common.png",
+      "status": 200,
+      "bytes": 109336,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/代表画像一覧.png",
+      "status": 200,
+      "bytes": 544325,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/盤面_01.png",
+      "status": 200,
+      "bytes": 519057,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/盤面_02.png",
+      "status": 200,
+      "bytes": 1086930,
+      "type": "image/png"
+    },
+    {
+      "file": "CHANGELOG.html",
+      "status": 200,
+      "bytes": 673,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 11837,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/盤面_03.png",
+      "status": 200,
+      "bytes": 1199452,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/盤面_04.png",
+      "status": 200,
+      "bytes": 1265885,
+      "type": "image/png"
+    },
+    {
+      "file": "board/MTA_画像修正版/画像確認/盤面_05.png",
+      "status": 200,
+      "bytes": 1393326,
+      "type": "image/png"
+    },
+    {
+      "file": "README.html",
+      "status": 200,
+      "bytes": 1192,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/00_INDEX.html",
+      "status": 200,
+      "bytes": 8573,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "README_最初に読んでください.html",
+      "status": 200,
+      "bytes": 2405,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/02_登場人物一覧.html",
+      "status": 200,
+      "bytes": 11497,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/01_作品概要.html",
+      "status": 200,
+      "bytes": 6419,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/03_トランプ対応一覧.html",
+      "status": 200,
+      "bytes": 4713,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/04_人間関係表.html",
+      "status": 200,
+      "bytes": 5432,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/05_PC目標一覧.html",
+      "status": 200,
+      "bytes": 4820,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/06_PC1_HO-A.html",
+      "status": 200,
+      "bytes": 10929,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/07_PC2_HO-A.html",
+      "status": 200,
+      "bytes": 10974,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/08_PC3_HO-A.html",
+      "status": 200,
+      "bytes": 11316,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/12_PC3_HO-B.html",
+      "status": 200,
+      "bytes": 9175,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/11_PC2_HO-B.html",
+      "status": 200,
+      "bytes": 9166,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/10_PC1_HO-B.html",
+      "status": 200,
+      "bytes": 15426,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/14_全人物TL_完全版.html",
+      "status": 200,
+      "bytes": 16376,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/13_PC4_HO-B.html",
+      "status": 200,
+      "bytes": 9114,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/15_全人物TL_HO版.html",
+      "status": 200,
+      "bytes": 4097,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/16_180分進行表.html",
+      "status": 200,
+      "bytes": 4883,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/17_第一事件真相.html",
+      "status": 200,
+      "bytes": 5142,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/18_第二事件真相.html",
+      "status": 200,
+      "bytes": 5482,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/09_PC4_HO-A.html",
+      "status": 200,
+      "bytes": 10882,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/19_第三事件真相.html",
+      "status": 200,
+      "bytes": 5193,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/20_全調査カード一覧.html",
+      "status": 200,
+      "bytes": 14410,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/21_調査カード本文集.html",
+      "status": 200,
+      "bytes": 24932,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/22_ジョー・カーメモ.html",
+      "status": 200,
+      "bytes": 4658,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/23_恐慌・逃走・崩落事故真相.html",
+      "status": 200,
+      "bytes": 4897,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/29_最終推理導線.html",
+      "status": 200,
+      "bytes": 8779,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/24_調査カード配分.html",
+      "status": 200,
+      "bytes": 4136,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/30_検証レポート.html",
+      "status": 200,
+      "bytes": 13316,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/32_全読み合わせ台本_統合版.html",
+      "status": 200,
+      "bytes": 11597,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/34_数字札取得・配置運用表.html",
+      "status": 200,
+      "bytes": 7564,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/33_PC1_作者犯人参照表.html",
+      "status": 200,
+      "bytes": 33358,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/35_PC3固定回答カード.html",
+      "status": 200,
+      "bytes": 4448,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/36_人間テストで確認する項目.html",
+      "status": 200,
+      "bytes": 6334,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C02.html",
+      "status": 200,
+      "bytes": 3390,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C01.html",
+      "status": 200,
+      "bytes": 3580,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C03.html",
+      "status": 200,
+      "bytes": 3453,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C04.html",
+      "status": 200,
+      "bytes": 3371,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C05.html",
+      "status": 200,
+      "bytes": 3693,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C06.html",
+      "status": 200,
+      "bytes": 3437,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C07.html",
+      "status": 200,
+      "bytes": 3415,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C08.html",
+      "status": 200,
+      "bytes": 3447,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C09.html",
+      "status": 200,
+      "bytes": 3452,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C10.html",
+      "status": 200,
+      "bytes": 3536,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C11.html",
+      "status": 200,
+      "bytes": 3424,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C12.html",
+      "status": 200,
+      "bytes": 3387,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C13.html",
+      "status": 200,
+      "bytes": 3426,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C14.html",
+      "status": 200,
+      "bytes": 3401,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C15.html",
+      "status": 200,
+      "bytes": 3440,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C16.html",
+      "status": 200,
+      "bytes": 3414,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C17.html",
+      "status": 200,
+      "bytes": 3403,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C19.html",
+      "status": 200,
+      "bytes": 3424,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C18.html",
+      "status": 200,
+      "bytes": 3605,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C20.html",
+      "status": 200,
+      "bytes": 3398,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C21.html",
+      "status": 200,
+      "bytes": 3441,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C22.html",
+      "status": 200,
+      "bytes": 3435,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C23.html",
+      "status": 200,
+      "bytes": 3404,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C24.html",
+      "status": 200,
+      "bytes": 3450,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C25.html",
+      "status": 200,
+      "bytes": 3407,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C26.html",
+      "status": 200,
+      "bytes": 3358,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C27.html",
+      "status": 200,
+      "bytes": 3660,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C28.html",
+      "status": 200,
+      "bytes": 3380,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C29.html",
+      "status": 200,
+      "bytes": 3372,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C30.html",
+      "status": 200,
+      "bytes": 3614,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C31.html",
+      "status": 200,
+      "bytes": 3603,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C32.html",
+      "status": 200,
+      "bytes": 3397,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C33.html",
+      "status": 200,
+      "bytes": 3450,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C34.html",
+      "status": 200,
+      "bytes": 3426,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C35.html",
+      "status": 200,
+      "bytes": 3473,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C36.html",
+      "status": 200,
+      "bytes": 3418,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C37.html",
+      "status": 200,
+      "bytes": 3606,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C38.html",
+      "status": 200,
+      "bytes": 3452,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C39.html",
+      "status": 200,
+      "bytes": 3860,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/cards/C40.html",
+      "status": 200,
+      "bytes": 3780,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/1.html",
+      "status": 200,
+      "bytes": 3780,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/10.html",
+      "status": 200,
+      "bytes": 3691,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/2.html",
+      "status": 200,
+      "bytes": 3650,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/3.html",
+      "status": 200,
+      "bytes": 3689,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/4.html",
+      "status": 200,
+      "bytes": 3623,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/5.html",
+      "status": 200,
+      "bytes": 3861,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/6.html",
+      "status": 200,
+      "bytes": 3642,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/7.html",
+      "status": 200,
+      "bytes": 3734,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/9.html",
+      "status": 200,
+      "bytes": 3620,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/8.html",
+      "status": 200,
+      "bytes": 3618,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/characters/JOKER.html",
+      "status": 200,
+      "bytes": 3674,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/index.html",
+      "status": 200,
+      "bytes": 8573,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/maps/1F.html",
+      "status": 200,
+      "bytes": 3057,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/maps/2F.html",
+      "status": 200,
+      "bytes": 3109,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/maps/pension_1F.svg",
+      "status": 200,
+      "bytes": 1524,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "review/maps/surroundings.html",
+      "status": 200,
+      "bytes": 3002,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/maps/pension_2F.svg",
+      "status": 200,
+      "bytes": 2025,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "review/maps/surroundings.svg",
+      "status": 200,
+      "bytes": 904,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "review/maps/verification.html",
+      "status": 200,
+      "bytes": 3042,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/scripts/01_OP_神経衰弱.html",
+      "status": 200,
+      "bytes": 4638,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/scripts/00_台本一覧.html",
+      "status": 200,
+      "bytes": 3840,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/maps/verification_map.svg",
+      "status": 200,
+      "bytes": 2032,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "review/scripts/02_第一事件.html",
+      "status": 200,
+      "bytes": 4438,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/scripts/04_恐慌と崩落事故.html",
+      "status": 200,
+      "bytes": 4282,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/scripts/05_第三事件.html",
+      "status": 200,
+      "bytes": 4339,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/scripts/03_第二事件.html",
+      "status": 200,
+      "bytes": 4429,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/scripts/06_ED.html",
+      "status": 200,
+      "bytes": 4098,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/00_TESTPLAY_INDEX.html",
+      "status": 200,
+      "bytes": 6279,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/01_テスト条件と情報隔離.html",
+      "status": 200,
+      "bytes": 5552,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/02_TEST_A_標準卓.html",
+      "status": 200,
+      "bytes": 19487,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/03_TEST_B_秘密保持卓.html",
+      "status": 200,
+      "bytes": 18663,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/04_TEST_C_推理強者卓.html",
+      "status": 200,
+      "bytes": 18421,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/05_TEST_D_朝陽ミスリード卓.html",
+      "status": 200,
+      "bytes": 18662,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/06_TEST_E_カード選択事故卓.html",
+      "status": 200,
+      "bytes": 18821,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/07_カード取得比較.html",
+      "status": 200,
+      "bytes": 4780,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/08_PC別目標達成.html",
+      "status": 200,
+      "bytes": 5830,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/09_C39_C40_Jメモ強度.html",
+      "status": 200,
+      "bytes": 5267,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/10_100パターン到達テスト.html",
+      "status": 200,
+      "bytes": 32787,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/11_問題一覧.html",
+      "status": 200,
+      "bytes": 6325,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/12_修正候補.html",
+      "status": 200,
+      "bytes": 4656,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "review/testplay/13_総合テスト結果.html",
+      "status": 200,
+      "bytes": 7015,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "source/investigation_cards_v1.json",
+      "status": 200,
+      "bytes": 22499,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "source/joker_memos_v3.json",
+      "status": 200,
+      "bytes": 1077,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "source/master_v13.json",
+      "status": 200,
+      "bytes": 148514,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "WEB_VALIDATION.html",
+      "status": 200,
+      "bytes": 797,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "source/reading_scripts_v28.json",
+      "status": 200,
+      "bytes": 9080,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "WEB_VALIDATION.json",
+      "status": 200,
+      "bytes": 1171,
+      "type": "application/json; charset=utf-8"
+    }
+  ]
+}

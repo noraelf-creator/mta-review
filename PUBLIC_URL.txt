@@ -1,0 +1,13 @@
+M.T.A.
+— MurdeR Trick Algorithm —
+
+GitHub Pages:
+https://noraelf-creator.github.io/mta-review/
+
+Repository:
+https://github.com/noraelf-creator/mta-review
+
+Last updated:
+2026-09-28 14:40 JST
+
+公開URLで全160件のHTML・画像・JSON・CSSのHTTP 200を確認。

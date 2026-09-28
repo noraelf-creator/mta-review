@@ -1,3 +1,7 @@
+## 2026-09-28 Web確認版
+
+専用コピーを静的HTMLサイト化。全資料の総合INDEX・文書HTML・相対リンク・スマホ用表スクロールを追加。元シナリオは未変更。公開先と実アクセス検査はPUBLIC_URL.txt、HTTP_VALIDATION.json参照。
+
 # 『神経衰弱』CHANGELOG
 
 ## 2026-09-21 00:58 JST — Ver.1.3 PC用HO構成・目標・文章スタイル確定

@@ -31,6 +31,8 @@ for(const f of files(SRC)){
    s=s.replace(/<table\b[\s\S]*?<\/table>/gi,m=>'<div class="web-table">'+m+'</div>');
    if(!/name=["']viewport/.test(s))s='<meta name="viewport" content="width=device-width,initial-scale=1">'+s;
   }
+  if(r==='00_CHATGPT_HANDOFF.md')s='# Web確認版の現在の入口\n\nhttps://noraelf-creator.github.io/mta-review/\n\nシナリオはVer.4.1.1、盤面はPNG画像修正版。Web版は元CURRENTの専用コピーであり、正本を変更しない。\n\n'+s;
+  if(r==='01_CHANGELOG.md')s='## 2026-09-28 Web確認版\n\n専用コピーを静的HTMLサイト化。全資料の総合INDEX・文書HTML・相対リンク・スマホ用表スクロールを追加。元シナリオは未変更。公開先と実アクセス検査はPUBLIC_URL.txt、HTTP_VALIDATION.json参照。\n\n'+s;
   b=Buffer.from(s);
  }
  write(r,b);copied.push(r);
@@ -63,6 +65,7 @@ for(const f of files(ROOT)){
  }
 }
 report.sourceUnchanged=Object.entries(original).every(([f,h])=>hash(f)===h);
+if(fs.existsSync(p.join(ROOT,'HTTP_VALIDATION.json'))){const h=JSON.parse(fs.readFileSync(p.join(ROOT,'HTTP_VALIDATION.json')));report.http404=h.http404;report.httpCheckedAt=h.checkedAt;report.httpChecked=h.total;}
 write('WEB_VALIDATION.json',JSON.stringify(report,null,2));
 const summary='# Web検証\n\n'+report.updated+'\n\nHTML数：'+report.html+'\n画像数：'+report.images+'\n内部参照数：'+report.internalReferences+'\nリンク切れ：'+report.broken.length+'\nローカル絶対パス：'+report.localPaths.length+'\n画像欠落：'+report.imageMissing+'\n認証情報パターン検出：'+report.secretFindings.length+'\n元CURRENTのハッシュ一致：'+report.sourceUnchanged+'\nHTTP 404：公開後検査はHTTP_VALIDATION.json参照。\n全HTMLのhref/srcをURLデコードして検査。公開前の検査で実サイト表示の保証はしない。\n';
 write('WEB_VALIDATION.md',summary);write('WEB_VALIDATION.html',page('Web検証','<pre>'+esc(summary)+'</pre>','WEB_VALIDATION.html'));

@@ -1,3 +1,9 @@
+# Web確認版の現在の入口
+
+https://noraelf-creator.github.io/mta-review/
+
+シナリオはVer.4.1.1、盤面はPNG画像修正版。Web版は元CURRENTの専用コピーであり、正本を変更しない。
+
 # 『M.T.A. — MurdeR Trick Algorithm —』ChatGPT引き継ぎ
 
 ## 更新日時
